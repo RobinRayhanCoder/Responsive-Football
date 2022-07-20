@@ -1,0 +1,172 @@
+
+@media screen and (min-width:1105px) and (max-width:1260px) {
+   .match{
+    width: 160px;
+   }
+   .boxs{
+    width: 416px;
+   }
+   .match>.flag>img{
+    width: 73px;
+   }
+   img {
+    width: 173px;
+}
+}
+@media screen and (min-width:1025px) and (max-width:1104px) {
+    .match{
+        margin: 15px 8px;
+        width: 150px;
+    }
+    .match>.flag>img{
+        width: 68px;
+       }
+    #a-left,#b-left,#c-left#b-left{
+        width: 217px;
+    }
+    h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    .text{
+        font-size: 13px;
+    }
+    img {
+        width: 161px;
+    }
+}
+        /* ---------------
+                     Tab 
+                --------------------- */
+@media screen and (min-width:768px) and (max-width:1024px) {
+    
+    .container{
+        flex-direction: column-reverse;
+    }
+    .right{
+        width: 100%;
+    }
+    .left{
+        width: 100%;
+    }
+    .items-body{
+        flex-direction: column;
+    }
+    .boxs{
+        flex-direction: row;
+        width:100%;
+        margin: 9px 8px;
+    }
+
+    .match{
+        width: 190px;
+        margin: 12px 9px;
+        padding: 12px 18px;
+    }
+    .match>.flag>img{
+        width: 73px;
+       }
+    #a-left,#b-left,#c-left{
+        width: 213px;
+    }
+    .text{
+        font-size: 16px;
+    }
+    .ftr-a>a{
+        padding: 3px 7px;
+    }
+    button{
+        margin-left: 41%;
+    }
+    img {
+        width: 201px;
+    }
+    #btnn {
+        margin-left: 45%;
+        margin-top: 60px;
+        margin-bottom: 42px;
+    }
+    .btn{
+        display: inline;
+    }
+}                  
+                /* -------- --
+                            Moobile 
+                            --- ---- ---- -- */
+@media screen and (max-width:767px){
+    .container{
+        flex-direction: column-reverse;
+    }
+    .right{
+        width: 100%;
+    }
+    .left{
+        width: 100%;
+    }
+    h1{
+        font-size: 29px;
+    }
+    h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    .text{
+        font-size: 13px;
+        text-align: center;
+    }
+    .boxl{
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    }
+    .boxs{
+        display: grid;
+    }
+    .items-body{
+        flex-direction: column;
+    }
+    .boxs{
+        flex-direction: row;
+        width:100%;
+        margin: 9px 8px;
+    }
+    .match{
+        margin: 12px 28px;
+        padding: 10px 38px;
+    }
+    button{
+        margin-left: 37%;
+    }
+    .ftr-a{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .ftr-a>a {
+        padding: 9px;
+    }
+    a.icon {
+       
+        font-size: 26px;
+        padding: 0 19px;
+    }.ftr>h1 {
+        padding-top: 73px;
+        padding-bottom: 11px;
+    }
+    .f-icon {
+        height: 90px;
+        margin-top: 150px;
+       
+    }
+    img {
+        width: 100%;
+    }img {
+    width: 100%;
+    }
+    .t-b {
+        margin-left:37% ;
+    }
+   .time{
+    margin-left: 20%;
+   }
+}
