@@ -36,9 +36,13 @@ h1{
     font-size: 20px;
     color: white;
     cursor: pointer;
+    background-color: rgb(136, 11, 11);
+
+}
+#ani{
     position: relative;
     animation-name: example;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
 }
 @keyframes example {
@@ -47,7 +51,9 @@ h1{
     50%  {background-color: rgb(13, 150, 18);}
     100% {background-color: rgb(15, 110, 15);}
   }
-
+  .btn-a:hover{
+    border-color: orangered;
+  }
 .right{
     width: 50%;
 }

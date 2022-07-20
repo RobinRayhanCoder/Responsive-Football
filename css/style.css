@@ -36,6 +36,9 @@ h1{
     font-size: 20px;
     color: white;
     cursor: pointer;
+    background-color: rgb(136, 11, 11);
+}
+#ani{
     position: relative;
     animation-name: example;
     animation-duration: 1s;
@@ -47,7 +50,9 @@ h1{
     100% {background-color:rgb(7, 7, 169);}
   }
 
-
+  .btn-a:hover{
+    border-color: orangered;
+  }
  
 .right{
     width: 50%;
