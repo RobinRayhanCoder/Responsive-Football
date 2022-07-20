@@ -38,17 +38,16 @@ h1{
     cursor: pointer;
     position: relative;
     animation-name: example;
-    animation-duration: .5s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
 }
 @keyframes example {
-    0%   {background-color:#ff033e;}
-  
-    100% {background-color:blue;}
+    0%   {background-color: rgb(34, 97, 20);}
+    25%  {background-color: rgb(17, 166, 27);}
+    50%  {background-color: rgb(13, 150, 18);}
+    100% {background-color: rgb(15, 110, 15);}
   }
-.btn-a:hover {
-    background-color: darkorange;
- }
+
 .right{
     width: 50%;
 }
