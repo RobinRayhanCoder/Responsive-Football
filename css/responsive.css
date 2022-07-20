@@ -43,7 +43,7 @@
 @media screen and (min-width:768px) and (max-width:1024px) {
     
     .container{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .right{
         width: 100%;
@@ -59,20 +59,28 @@
         width:100%;
         margin: 9px 8px;
     }
-
+    .boxl{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: auto;
+        gap: 32px;
+        }
     .match{
         width: 190px;
         margin: 12px 9px;
         padding: 12px 18px;
     }
     .match>.flag>img{
-        width: 73px;
+        width: 78px;
        }
     #a-left,#b-left,#c-left{
         width: 213px;
     }
     .text{
         font-size: 16px;
+    }
+    h2{
+        font-size: 18px;
     }
     .ftr-a>a{
         padding: 3px 7px;
@@ -81,7 +89,7 @@
         margin-left: 41%;
     }
     img {
-        width: 201px;
+        width: 204px;
     }
     #btnn {
         margin-left: 45%;
